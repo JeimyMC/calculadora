@@ -14,7 +14,6 @@ const App = () => {
       <Result value={data}></Result>
       <Numbers
         onClickNum={(number) => {
-          console.log(number);
           return setData(`${data}${number}`);
         }}
       ></Numbers>
